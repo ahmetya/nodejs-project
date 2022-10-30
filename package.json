@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "Node Js Init initalization Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetya/nodejs-project.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "bostondersland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmetya/nodejs-project/issues"
+  },
+  "homepage": "https://github.com/ahmetya/nodejs-project#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
