@@ -1,27 +1,26 @@
+console.log( true && true );   // true
+console.log( false && true );  // false
+console.log( true && false );  // false
+console.log( false && false ); // false
 
-let year = 2017;
-if (year == 2015) console.log("Its 2015");
 
+let hour = 12;
+let minute = 30;
 
-if(0){
-    console.log("not works");
+if(hour == 12 && minute == 30){
+    console.log("The time 12:30 !!!");
 }
 
-if(1){
-    console.log("works !!!");
+if(1 && 0){
+    console.log("Wont Work because it is falsy");
 }
 
-let cond = (year == 2016);
-if(cond){
-    console.log("also console out this");
-}
+// let result = val1 && val2 && val3;
 
-if(year == 2016){
-    console.log("its 2016");
-}
-else if (year == 2017){
-    console.log("its 2017");
-}
-else{
-    console.log("neither of them");
-}
+console.log("############");
+console.log(1 && 0 ); // 0
+console.log(1 && 5); // 5
+console.log(null && 5); //null
+console.log(0 && "No matter what"); // 0
+console.log("############");
+
